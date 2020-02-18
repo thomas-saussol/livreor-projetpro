@@ -1,0 +1,170 @@
+
+/*INDEX*/
+.nav2{
+display: flex;
+justify-content: space-around;
+background-color: rgba(255, 255, 255, 0.5);
+
+}
+
+body{
+
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-image: url("bandafondindex.jpg");
+}
+  #img1_index{
+  display: flex;
+  flex-direction: row;
+  height: 70vh;
+  width: 50px;
+}
+
+#logomouvementindex{
+  display: flex;
+flex-direction: row;
+justify-content:center;
+
+}
+
+header, p, h3, label{
+color: red;
+font-family: 'Pattaya', sans-serif;
+font-size: 25px;
+
+}
+h1{
+color: red;
+font-family: 'Pattaya', sans-serif;
+font-size: 33px;
+
+}
+
+
+
+/*Connexion*/
+#formconnexion{
+ display: block;
+  align-items: baseline;
+  text-align: center;
+  margin: 100px;
+  margin-left: 500px;
+  padding: 100px;
+  width:300px;
+  height: 170px;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.5);
+
+}
+
+
+
+/*Inscription*/
+
+#forminscription{
+display: block;
+  align-items: baseline;
+  text-align: center;
+  margin: 100px;
+  margin-left: 400px;
+  padding: 100px;
+  width:500px;
+  height: 300px;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+/*Commentaire*/
+#comment{
+display: block;
+align-items: baseline;
+text-align: center;
+margin: 80px;
+margin-left: 350px;
+padding: 100px;
+width:600px;
+height: 150px;
+border-radius: 30px;
+background-color: rgba(255, 255, 255, 0.5);
+
+}
+
+/*Profil*/
+#profilform{
+  display: block;
+  align-items: baseline;
+  text-align: center;
+  margin: 100px;
+  margin-left: 500px;
+  padding: 100px;
+  width:300px;
+  height: 280px;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.5);
+
+}
+
+/*Body Profil*/
+.bgprofil{
+background-repeat: no-repeat;
+background-size:cover;
+background-image: url("fondprofil.jpg");
+}
+
+/*Body commentaire*/
+#bgcommentaire{
+background-repeat: no-repeat;
+background-size:cover;
+background-image: url("123.jpg");
+}
+
+/*Body Index*/
+#bgindex{
+background-repeat: no-repeat;
+background-size:cover;
+background-image: url("fondindex.jpg");
+}
+
+/*livreor*/
+section{
+	margin: 60px;
+	margin-left: 150px;
+	margin-right: 150px;
+	border-style:solid;
+	padding: 20px;
+	height: 500px;
+	overflow: scroll;
+}
+.poster{
+	display:flex;
+  width: :100%;
+	margin-bottom: 20px;
+  word-wrap: break-word;
+
+}
+#user{
+border-style:solid;
+border-radius:5px;
+height: 100px;
+padding: 8px;
+background-color: rgba(255, 255, 255, 0.5);
+margin-right: 5px;
+
+}
+#user p{
+	color: black;
+	font-size: 14px;
+}
+#user h3{
+	color: black;
+	font-size: 20px;
+}
+
+#messag{
+margin-top: 30px;
+border-radius:20px;
+padding: 10px;
+width: 80%;
+margin-bottom: 20px;
+background-color: rgba(255, 255, 255, 0.5);
+}
